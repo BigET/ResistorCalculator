@@ -1,0 +1,80 @@
+table {width:100%}
+table.Resistor td {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    background-color:cyan;
+    padding-left:1%;
+    padding-right:1%;
+    width:8%;
+}
+
+table.Resistor {
+    border-spacing:0;
+
+}
+
+table.Resistor td.LeftEnd {
+    border-top-left-radius:50%;
+    border-bottom-left-radius:50%;
+    border-left:1px solid black;
+}
+table.Resistor td.RightEnd {
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+    border-right:1px solid black;
+}
+
+table.Resistor td.spacer {width:auto;}
+
+table.Resistor td.leaddown {
+    background:none;
+    border:solid black;
+    border-width:1px 0 0 0;
+    width:3%;
+}
+
+table.Resistor td.leadup {
+    background:none;
+    border:solid black;
+    border-width:0 0 1px 0;
+    width:3%;
+}
+
+table.Resistor td.strip {
+    padding-top:0;
+    padding-bottom:0;
+}
+
+table.Resistor td.strip div {
+    height:11em;
+}
+
+table.Resistor td.strip > div {
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+table.Resistor td.strip > div > div {
+    padding:5em 0 0 0;
+    height:6em;
+    text-align:center;
+}
+
+div.black {background-color:black;color:white;}
+div.brown {background-color:brown;color:white;}
+div.red {background-color:red;color:white;}
+div.orange {background-color:orange;color:black;}
+div.yellow {background-color:yellow;color:black;}
+div.green {background-color:green;color:black;}
+div.blue {background-color:blue;color:white;}
+div.violet {background-color:violet;color:white;}
+div.gray {background-color:gray;color:black;}
+div.white {background-color:white;color:black;}
+div.silver {background-color:silver;color:black;}
+div.gold {background-color:gold;color:black;}
+
+td.optional > div {visibility:hidden;}
+
+select {font-size:3em}
+
+body {text-align:center}

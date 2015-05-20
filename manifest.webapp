@@ -1,0 +1,13 @@
+{
+  "version": "0.1",
+  "name": "Resistor Calculator",
+  "description": "Resistor color code calculator",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/favicon.png"
+  },
+  "developer": {
+    "name": "Eduard Budulea"
+  },
+  "default_locale": "en"
+}

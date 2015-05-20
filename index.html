@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Resistor color 2 value calculator</title>
+<link rel="stylesheet" type="text/css" href="resistor.css"></link>
+<body>
+<select id="stripNr">
+        <option value="4">4 strips</option>
+        <option value="5">5 strips</option>
+        <option value="6">6 strips</option>
+</select>
+<table class="Resistor" border="0">
+<tr>
+<td class="leadup">&nbsp;</td>
+<td class="LeftEnd" rowspan="2">&nbsp;</td>
+<td class="strip" rowspan="2">
+<div>
+<div class="brown">1</div>
+<div class="red">2</div><div class="orange">3</div>
+<div class="yellow">4</div><div class="green">5</div>
+<div class="blue">6</div><div class="violet">7</div>
+<div class="gray">8</div><div class="white">9</div>
+</div>
+</td>
+<td class="strip" rowspan="2">
+<div>
+<div class="black">0</div><div class="brown">1</div>
+<div class="red">2</div><div class="orange">3</div>
+<div class="yellow">4</div><div class="green">5</div>
+<div class="blue">6</div><div class="violet">7</div>
+<div class="gray">8</div><div class="white">9</div>
+</div>
+</td>
+<td class="strip optional" id="thirdStrip" rowspan="2">
+<div>
+<div class="black">0</div><div class="brown">1</div>
+<div class="red">2</div><div class="orange">3</div>
+<div class="yellow">4</div><div class="green">5</div>
+<div class="blue">6</div><div class="violet">7</div>
+<div class="gray">8</div><div class="white">9</div>
+</div>
+<td class="strip" rowspan="2">
+<div>
+<div class="silver">0m&#x3a9;</div><div class="gold">00m&#x3a9;</div>
+<div class="black">&#x3a9;</div><div class="brown">0&#x3a9;</div>
+<div class="red">00&#x3a9;</div><div class="orange">K&#x3a9;</div>
+<div class="yellow">0K&#x3a9;</div><div class="green">00K&#x3a9;</div>
+<div class="blue">M&#x3a9;</div><div class="violet">0M&#x3a9;</div>
+</div>
+</td>
+<td class="spacer" rowspan="2">&nbsp;</td>
+<td class="strip" rowspan="2">
+<div>
+<div class="silver">&#xb1;10%</div><div class="gold">&#xb1;5%</div>
+<div class="brown">&#xb1;1%</div><div class="red">&#xb1;2%</div>
+<div class="green">&#xb1;0.5%</div>
+<div class="blue">&#xb1;0.25%</div><div class="violet">&#xb1;0.1%</div>
+</div>
+<td class="strip optional" id="sixthStrip" rowspan="2">
+<div>
+<div class="brown">100ppm</div>
+<div class="red">50ppm</div><div class="orange">15ppm</div>
+<div class="yellow">25ppm</div>
+</div>
+<td class="RightEnd" rowspan="2">&nbsp;</td>
+<td class="leadup">&nbsp;</td>
+</tr>
+<tr>
+<td class="leaddown">&nbsp;</td>
+<td class="leaddown">&nbsp;</td>
+</tr>
+</table>
+</body>
+<script src="events.js"></script>
+</html>
