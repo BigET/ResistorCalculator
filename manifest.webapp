@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "name": "Resistor Calculator",
+  "name": "ResCalc",
   "description": "Resistor color code calculator",
   "launch_path": "/index.html",
   "icons": {
