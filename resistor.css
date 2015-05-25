@@ -75,6 +75,8 @@ div.gold {background-color:gold;color:black;}
 
 td.optional > div {visibility:hidden;}
 
+div#result {width:100%;}
+
 select {font-size:3em}
 
 body {text-align:center}
