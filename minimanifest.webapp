@@ -9,5 +9,6 @@
   "developer": {
     "name": "Eduard Budulea"
   },
-  "default_locale": "en"
+  "default_locale": "en",
+  "package_path" : "http://192.168.2.164:8080/resistor.zip"
 }

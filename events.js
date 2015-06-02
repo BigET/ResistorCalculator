@@ -21,7 +21,7 @@ function calculate() {
     var trd = trd0 != 0 ? trd0 : "";
     var fst = getStripText(strips[0]);
     var snd0 = getStripText(strips[1]);
-    var snd = snd0 != 0 ? snd0 : "";
+    var snd = snd0 != 0 || trd0 != 0 ? snd0 : "";
     if (td) multipl += 1;
     switch(multipl) {
     case 0:resText = "R".concat(fst, snd, trd); break;
