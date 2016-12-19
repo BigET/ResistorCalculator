@@ -3,7 +3,7 @@ function getIndex(strip) {
     var fcdiv = pardiv.firstElementChild;
     var prect = pardiv.getBoundingClientRect();
     var fcrect = fcdiv.getBoundingClientRect();
-    var off = prect.y - fcrect.y;
+    var off = prect.top - fcrect.top;
     var step = fcrect.height;
     return Math.max(0, Math.floor((off / step) + 0.5));
 }
