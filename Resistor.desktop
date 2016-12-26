@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-Ubuntu-Touch=true
+#X-Ubuntu-XMir-Enable=true
+X-Ubuntu-Supported-Orientations=landscape
+
+
+Name=Resistor Calculator
+Comment=Calculate the resistor value from color codes.
+Exec=webapp-container --inspector index.html
+Terminal=false
+Type=Application
+Icon=favicon.png
+Categories=Utility;Calculator;
+StartupNotify=false

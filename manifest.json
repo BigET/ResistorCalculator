@@ -1,0 +1,15 @@
+{
+    "architecture": "all",
+    "description": "Electrict resistor color code calculator",
+    "framework": "ubuntu-sdk-15.04",
+    "hooks": {
+        "resistor-calculator": {
+            "apparmor": "Resistor.apparmor",
+            "desktop": "Resistor.desktop"
+        }
+    },
+    "maintainer": "Eduard Budulea<e_timotei@yahoo.com>",
+    "name": "com.edi.resistorcalculator",
+    "title": "Resistor Calculator",
+    "version": "0.9"
+}
